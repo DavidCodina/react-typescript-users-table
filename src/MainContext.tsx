@@ -18,14 +18,16 @@ export const MainProvider = (props: { children: React.ReactNode }) => {
 
 
   useEffect(() => {
-    axios.get('http://localhost:3000/data/users.json')
+    // axios.get('http://localhost:3000/data/users.json')
+    axios.get('data/users.json')
     .then(res  => { setUsers([ ...res.data ]); })
     .catch(err => { console.log(err);          });
   }, []);
 
 
   useEffect(() => {
-    axios.get('http://localhost:3000/data/districts.json')
+    // axios.get('http://localhost:3000/data/districts.json')
+    axios.get('data/districts.json')
     .then(res => { setDistricts([ ...res.data ]); })
     .catch(err => { console.log(err); });
   }, []);
