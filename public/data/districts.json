@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Allentown School District",
+        "city": "Pennsylvania"
+    },{
+        "id": 2,
+        "name": "Hopkins County Schools",
+        "city": "Kentucky"
+    },{
+        "id": 3,
+        "name": "Norman Public Schools",
+        "city": "Oklahoma"
+    },{
+        "id": 4,
+        "name": "Rochester City School District",
+        "city": "New York"
+    },{
+        "id": 5,
+        "name": "West Bloomfield School District",
+        "city": "Michigan"
+    }
+]
